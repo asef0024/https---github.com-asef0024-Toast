@@ -1,14 +1,109 @@
 /* 
 Theme Name:    Toasten
 Template:      scapeshot
-Version:      1.0.5
+Version:      1.0.7
 Description:  Scapeshot Child Theme
 Author:      Toast-master
 */
-
+/* 
 @media only screen and (min-width: 48em) {
   .fullscreen-menu-toggle-wrapper {
     position: absolute;
     bottom: unset;
+  }
+} */
+
+#masthead {
+  background-image: url("Toast_grafik/OSTEHJUL.svg");
+}
+
+.menu-label {
+  display: none;
+}
+
+p {
+  color: black;
+}
+
+svg.icon-menu {
+  color: black;
+}
+
+svg.icon-search {
+  color: black;
+}
+
+.site-info {
+  color: black;
+}
+
+.page-title {
+  display: none;
+}
+
+.liste-titel {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+p {
+  line-height: 2.5;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+/* Shoppen */
+#liste {
+  padding: 10px;
+  text-align: center;
+}
+
+#filtrering {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button.filter {
+  padding: 15px;
+  border-style: solid;
+  border-color: #fcb014;
+}
+
+.elementcontainer {
+  gap: 10px;
+  cursor: pointer;
+}
+
+#shoppen {
+  text-align: center;
+}
+.shoppen_nav {
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  .elementcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  }
+
+  #liste img {
+    /* width: 363.33px;
+    height: 242.15px; */
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+  #filtrering {
+    display: flex;
+    gap: 15px;
+  }
+
+  .ret-container {
+    padding: 30px;
   }
 }
