@@ -31,15 +31,13 @@
 			<div class="header-blank"></div>
 				<div class="wrapper">
 					<?php
+	get_template_part( 'template-parts/header/site', 'branding-secondary' );
 
-					get_template_part( 'template-parts/header/site', 'branding-secondary' );
-
-
-					get_template_part( 'template-parts/navigation/primary-search' );
+					get_template_part( 'template-parts/navigation/nav-full-screen-menu' );
 
 					get_template_part( 'template-parts/header/site', 'branding' );
-				
-					get_template_part( 'template-parts/navigation/nav-full-screen-menu' );
+
+					get_template_part( 'template-parts/navigation/primary-search' );
 					?>
 			</div><!-- .wrapper -->
 		</div><!-- .site-header-main -->
