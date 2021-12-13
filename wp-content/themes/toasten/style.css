@@ -56,6 +56,16 @@ svg.icon-search {
   display: none;
 }
 
+#masthead {
+  background-image: url("../../../billeder/ny.osteheader.svg");
+  background-size: cover;
+}
+
+body {
+  background-image: url("../../../billeder/grainy_baggrund.png");
+  background-size: cover;
+}
+
 /**********FILRTRERING********/
 
 .page-title {
