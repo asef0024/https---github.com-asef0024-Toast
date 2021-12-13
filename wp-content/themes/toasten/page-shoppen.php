@@ -40,10 +40,10 @@ get_header(); ?>
 <h1>SHOPPEN</h1>
 </div>
 <nav class="shoppen_nav">
-<button data-kategori="alle" class="valgt">Alle items</button>
+<!-- <button data-kategori="alle" class="valgt">Alle items</button>
         <button data-kategori="merchandise">Merchandise</button>
         <button data-kategori="swag">Swag</button>
-        <button data-kategori="toast-kit">Toast kit</button>
+        <button data-kategori="toast-kit">Toast kit</button> -->
 </nav>
 
 <section class="elementcontainer"></section>
