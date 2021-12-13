@@ -40,10 +40,10 @@ get_header(); ?>
 <h1>SHOPPEN</h1>
 </div>
 <nav class="shoppen_nav">
-<button data-kategori="alle" class="valgt">Alle items</button>
+<!-- <button data-kategori="alle" class="valgt">Alle items</button>
         <button data-kategori="merchandise">Merchandise</button>
         <button data-kategori="swag">Swag</button>
-        <button data-kategori="toast-kit">Toast kit</button>
+        <button data-kategori="toast-kit">Toast kit</button> -->
 </nav>
 
 <section class="elementcontainer"></section>
@@ -80,7 +80,7 @@ get_header(); ?>
       async function getJson() {
         const data = await fetch(url);
         const catdata = await fetch(catUrl);
-        const temdata = await fetch(temUrl);
+      
         elementer = await data.json();
         categories = await catdata.json();
         visElementer();
