@@ -39,15 +39,6 @@ svg.icon-search {
   img.custom-logo {
     height: 150px;
   }
-
-  svg.icon-search {
-    display: none;
-  }
-}
-@media (min-width: 400px) {
-  img.custom-logo {
-    height: 90px;
-  }
 }
 
 @media (max-width: 400px) {
@@ -67,7 +58,7 @@ svg.icon-search {
   text-align: center;
 }
 
-#full-screen-nav-search-wrapper {
+svg.icon-search {
   display: none;
 }
 
