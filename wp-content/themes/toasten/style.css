@@ -39,22 +39,21 @@ svg.icon-search {
   img.custom-logo {
     height: 150px;
   }
-
-  svg.icon-search {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  img.custom-logo {
-    height: 120px;
-  }
 }
 
 @media (max-width: 400px) {
   img.custom-logo {
     height: 70px;
   }
+}
+
+.fullscreen-menu-inside-container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+svg.icon-search {
+  display: none;
 }
 
 /**********FILRTRERING********/
