@@ -56,6 +56,12 @@ svg.icon-search {
   }
 }
 
+/* @media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 812px) {
+  .fullscreen-site-header-menu + .site-branding {
+    display: flex;
+  }
+} */
+
 .fullscreen-menu-inside-container {
   margin-top: 80px;
   text-align: center;
