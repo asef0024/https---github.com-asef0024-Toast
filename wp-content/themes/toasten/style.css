@@ -41,7 +41,7 @@ svg.icon-search {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 760px) {
   img.custom-logo {
     height: 70px;
   }
