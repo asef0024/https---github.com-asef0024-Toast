@@ -83,6 +83,7 @@ img {
 }
 
 /* Shoppen + menuen */
+
 #liste {
   padding: 10px;
   text-align: center;
@@ -100,8 +101,8 @@ button.filter {
 }
 
 .elementcontainer {
-  gap: 10px;
   cursor: pointer;
+  gap: 10px;
 }
 
 #shoppen,
@@ -115,7 +116,7 @@ button.filter {
 @media (min-width: 750px) {
   .elementcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 
   #liste img {
