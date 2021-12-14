@@ -82,7 +82,7 @@ img {
   width: 100%;
 }
 
-/* Shoppen */
+/* Shoppen + menuen */
 #liste {
   padding: 10px;
   text-align: center;
@@ -104,7 +104,8 @@ button.filter {
   cursor: pointer;
 }
 
-#shoppen {
+#shoppen,
+#menuen {
   text-align: center;
 }
 .shoppen_nav {

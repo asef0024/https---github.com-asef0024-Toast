@@ -36,8 +36,8 @@ get_header(); ?>
 
 </div>
 
-<div id="shoppen">
-<h1>WADERS TIL NÅR DU STÅR I OST TIL KNÆENE</h1>
+<div id="menuen">
+<h1>MENU</h1>
 </div>
 <nav class="shoppen_nav">
 <!-- <button data-kategori="alle" class="valgt">Alle items</button>
@@ -73,7 +73,7 @@ get_header(); ?>
       //   visElementer();
       // }
      
-      const url = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/vare?per_page=100";
+      const url = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/toast?per_page=100";
       const catUrl = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/categories?per_page=100";
 
 
@@ -88,31 +88,31 @@ get_header(); ?>
 
       }
 
-      function opretknapper () {
+    //   function opretknapper () {
 
-        categories.forEach(cat => {
-          document.querySelector(".shoppen_nav").innerHTML += `<button class="filter" data-element="${cat.id}">${cat.name}</button>`
-        })
+    //     categories.forEach(cat => {
+    //       document.querySelector(".shoppen_nav").innerHTML += `<button class="filter" data-element="${cat.id}">${cat.name}</button>`
+    //     })
 
-        addEventListenersToButtons () 
-      }
+    //     addEventListenersToButtons () 
+    //   }
 
  
 
-      function  addEventListenersToButtons () {
-        document.querySelectorAll("button").forEach(elm => {
-          elm.addEventListener("click", filtrering);
-        })
+    //   function  addEventListenersToButtons () {
+    //     document.querySelectorAll("button").forEach(elm => {
+    //       elm.addEventListener("click", filtrering);
+    //     })
 
        
-      };
-      function filtrering() {
-        filterElement = this.dataset.element;
-        console.log(filterElement);
+    //   };
+    //   function filtrering() {
+    //     filterElement = this.dataset.element;
+    //     console.log(filterElement);
 
-        visElementer();
+    //     visElementer();
 
-      }
+    //   }
 
     
 
