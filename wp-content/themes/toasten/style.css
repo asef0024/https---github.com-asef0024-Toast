@@ -95,7 +95,8 @@ img {
 }
 
 button.filter {
-  padding: 15px;
+  padding: 10px;
+  margin: 1%;
   border-style: solid;
   border-color: #fcb014;
 }
@@ -105,16 +106,19 @@ button.filter {
   gap: 10px;
 }
 
-#shoppen,
-#menuen {
+#shoppen {
   text-align: center;
 }
-.shoppen_nav {
+.toast_nav {
   text-align: center;
 }
 
 @media (min-width: 750px) {
-  .elementcontainer {
+  /* .site-content > .wrapper {
+    padding-top: 25%;
+  } */
+
+  #shoppen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
@@ -134,5 +138,32 @@ button.filter {
 
   .ret-container {
     padding: 30px;
+  }
+  /* Toast oversigt */
+  .menuen .elementcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+  }
+
+  /* .menuen .elementcontainer #liste .placer-elementer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: center;
+  }
+  .menuen .elementcontainer #liste img {
+    width: 50%;
+    margin: 1rem;
+    object-fit: contain;
+    transform: rotate(-50deg);
+  } */
+  /* toast singleview */
+  .vare {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    align-items: center;
+  }
+  .vare .toast-text {
+    align-self: center;
   }
 }

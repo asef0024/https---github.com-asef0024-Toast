@@ -29,8 +29,8 @@ get_header(); ?>
 
     
 
-<!-- 
-<main class="site-main"> -->
+
+<main class="site-main">
 
 
 
@@ -38,13 +38,8 @@ get_header(); ?>
 
 <div id="shoppen">
 <h1>WADERS TIL NÅR DU STÅR I OST TIL KNÆENE</h1>
-</div>
-<nav class="shoppen_nav">
-<!-- <button data-kategori="alle" class="valgt">Alle items</button>
-        <button data-kategori="merchandise">Merchandise</button>
-        <button data-kategori="swag">Swag</button>
-        <button data-kategori="toast-kit">Toast kit</button> -->
-</nav>
+
+<nav class="shoppen_nav"></nav>
 
 <section class="elementcontainer"></section>
 </main>
