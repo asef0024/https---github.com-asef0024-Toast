@@ -22,9 +22,9 @@ get_header(); ?>
      
     <section class="toast-text">
         <h2 class="h2"></h2>
-        <div class="beskrivelse"></div>
-        <div class="ingredienser"></div>
-        <div class="pris"></div>
+        <p class="beskrivelse"></p>
+        <p class="ingredienser"></p>
+        <p class="pris"></p>
         <button class="book-knap">Køb toast-kit</button>
     </section>
 
