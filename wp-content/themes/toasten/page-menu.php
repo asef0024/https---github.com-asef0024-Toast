@@ -27,7 +27,7 @@ get_header(); ?>
 
 <div id="menu-intro">
 <h1>TA' EN TOAST</h1>
-<P> -alle Toasts er ristet til perfektion i brunet smør og serveret gloende varme.</P>
+<P> Alle Toasts er ristet til perfektion i brunet smør og serveres gloende varme.</P>
 </div>
 
 <template>

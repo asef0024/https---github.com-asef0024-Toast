@@ -19,15 +19,16 @@ get_header(); ?>
     <img class="billede" src="" alt="" />
   </div>
 
-  <div class="vare-text">
-    <h2 class="h2"></h2>
+  <section class="vare-text">
+    <h1 class="h2"></h1>
     <p class="beskrivelse"></p>
     <p class="pris"></p>
     <button class="book-knap">Køb</button>
-  </div>
+</section>
   
 </article>
-<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/shoppen/" class="tilbage">Tilbage →</a></div>
+
+<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/shoppen/" class="tilbage">← Tilbage</a></div>
 
 
 <script>

@@ -17,13 +17,13 @@ get_header(); ?>
 
     
    
-  
-        <img class="billede" src="" alt="her er et billede af en toast" />
-     
+  <div class="splash">
+        <img class="billede2" src="" alt="her er et billede af en toast" />
+     </div>
+
     <section class="toast-text">
-        <h2 class="h2"></h2>
+        <h1 class="h2"></h1>
         <p class="beskrivelse"></p>
-        <p class="ingredienser"></p>
         <p class="pris"></p>
         <button class="book-knap">Køb toast-kit</button>
     </section>
@@ -32,7 +32,7 @@ get_header(); ?>
   
 </article>
 
-<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/menu/" class="tilbage">Tilbage →</a></div>
+<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/menu/" class="tilbage">← Tilbage</a></div>
     <script>
 
 let element;
@@ -47,9 +47,9 @@ visElementer();
 }
 
 function visElementer() {
-console.log(element.billede.guid);
+console.log(element.billede2.guid);
 document.querySelector(".h2").innerHTML = element.title.rendered;
-document.querySelector(".billede").src = element.billede.guid;
+document.querySelector(".billede2").src = element.billede2.guid;
 //   document.querySelector(".overskrift1").innerHTML = element.overskrift1;
 //   document.querySelector(".infobox1").src = element.infobox1.guid;
 //   document.querySelector(".infobox2").src = element.infobox2.guid;
