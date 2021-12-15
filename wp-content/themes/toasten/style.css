@@ -102,7 +102,7 @@ button.filter {
 }
 
 .elementcontainer {
-  cursor: pointer;
+  /* cursor: pointer; */
   gap: 10px;
 }
 
@@ -159,9 +159,9 @@ button.filter {
     align-items: center;
   }
 
-  /* .menuen .elementcontainer #liste:nth-child(odd) {
-    flex-direction: column-reverse;
-  } */
+  .menuen .elementcontainer #liste:nth-child(odd) {
+    grid-template-columns: 1fr 2fr;
+  }
 
   .menuen .elementcontainer #liste:nth-child(odd) .placer-elementer {
     grid-column: 1;
