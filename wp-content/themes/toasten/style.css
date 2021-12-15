@@ -175,9 +175,9 @@ button.filter {
 }
 
 @media (min-width: 750px) {
-  /* .site-content > .wrapper {
-    padding-top: 25%;
-  } */
+  .vare img {
+    transform: rotate(-50deg);
+  }
 
   #shoppen .elementcontainer {
     display: grid;
