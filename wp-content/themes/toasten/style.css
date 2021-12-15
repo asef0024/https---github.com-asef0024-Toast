@@ -101,6 +101,7 @@ svg.icon-cancel {
 /***********FOOTER************/
 
 .site-footer {
+  max-width: 2500px;
   background-color: #fcb732;
 }
 
@@ -133,7 +134,7 @@ svg.icon-cancel {
 }
 
 #menu-intro h1 {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .pris {
@@ -159,6 +160,7 @@ button.filter {
 }
 
 #shoppen {
+  padding-top: 80px;
   text-align: center;
 }
 .toast_nav {
