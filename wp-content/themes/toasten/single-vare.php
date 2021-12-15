@@ -22,12 +22,12 @@ get_header(); ?>
   <div class="vare-text">
     <h2 class="h2"></h2>
     <p class="beskrivelse"></p>
-    <div class="pris"></div>
-    <button class="book-knap">Book nu</button>
+    <p class="pris"></p>
+    <button class="book-knap">Køb</button>
   </div>
   
 </article>
-
+<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/shoppen/" class="tilbage">Tilbage →</a></div>
 
 
 <script>
@@ -53,7 +53,7 @@ document.querySelector(".billede").src = element.billede.guid;
 document.querySelector(".beskrivelse").innerHTML = element.beskrivelse;
 //   document.querySelector(".billede2").src = element.billede2.guid;
 //   document.querySelector(".billede3").src = element.billede3.guid;
-document.querySelector(".pris").innerHTML = element.pris;
+document.querySelector(".pris").innerHTML = element.pris + "kr";
 //   document.querySelector(".video").src = element.video.guid;
 }
 

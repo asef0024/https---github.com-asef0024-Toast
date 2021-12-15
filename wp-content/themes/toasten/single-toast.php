@@ -31,6 +31,8 @@ get_header(); ?>
   
   
 </article>
+
+<div class="tilbageknap"><a href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/menu/" class="tilbage">Tilbage →</a></div>
     <script>
 
 let element;
@@ -54,7 +56,7 @@ document.querySelector(".billede").src = element.billede.guid;
 document.querySelector(".beskrivelse").innerHTML = element.beskrivelse;
 document.querySelector(".ingredienser").innerHTML = element.ingredienser;
 //   document.querySelector(".billede3").src = element.billede3.guid;
-document.querySelector(".pris").innerHTML = element.pris;
+document.querySelector(".pris").innerHTML = element.pris + "kr";
 //   document.querySelector(".video").src = element.video.guid;
 }
 

@@ -121,7 +121,7 @@ get_header(); ?>
           let klon = temp.cloneNode(true).content;
           klon.querySelector("h2").innerHTML = element.title.rendered;
           klon.querySelector("img").src = element.billede.guid;
-          klon.querySelector(".pris").textContent = element.pris;
+          klon.querySelector(".pris").textContent = element.pris + "kr";
           klon.querySelector(".læs-mere-knap").addEventListener("click", () => { location.href = element.link; })
           container.appendChild(klon);
            }

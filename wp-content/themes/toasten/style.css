@@ -113,6 +113,13 @@ button.filter {
   text-align: center;
 }
 
+.tilbageknap {
+  padding-top: 20px;
+  max-width: 1200px;
+  font-weight: 700;
+  text-align: right;
+}
+
 @media (min-width: 750px) {
   /* .site-content > .wrapper {
     padding-top: 25%;
@@ -140,30 +147,42 @@ button.filter {
     padding: 30px;
   }
   /* Toast oversigt */
+
   .menuen .elementcontainer {
     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  }
+  .menuen .elementcontainer #liste {
+    display: grid;
     grid-template-columns: 2fr 1fr;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
   }
 
-  /* .menuen .elementcontainer #liste .placer-elementer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    justify-content: center;
+  /* .menuen .elementcontainer #liste:nth-child(odd) {
+    flex-direction: column-reverse;
+  } */
+
+  .menuen .elementcontainer #liste:nth-child(odd) .placer-elementer {
+    grid-column: 1;
+  }
+
+  .menuen .elementcontainer #liste:nth-child(odd) img {
+    grid-column: 2;
   }
   .menuen .elementcontainer #liste img {
-    width: 50%;
+    width: 70%;
     margin: 1rem;
     object-fit: contain;
     transform: rotate(-50deg);
-  } */
+  }
   /* toast singleview */
-  .vare {
+  /* .vare {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     align-items: center;
   }
   .vare .toast-text {
     align-self: center;
-  }
+  } */
 }

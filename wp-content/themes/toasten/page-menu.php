@@ -35,7 +35,7 @@ get_header(); ?>
       <img src="" alt="" />
       <div class="placer-elementer">
         <h2 class="liste-titel"></h2>
-        <div class="ingredienser"></div>
+        <p class="ingredienser"></p>
         <p class="pris"></p>
       <button class="læs-mere-knap">Læs mere</button>
       </div>
@@ -84,7 +84,7 @@ get_header(); ?>
           klon.querySelector("img").src = element.billede.guid;
           klon.querySelector("h2").innerHTML = element.title.rendered;
           klon.querySelector(".ingredienser").innerHTML = element.ingredienser;
-          klon.querySelector(".pris").textContent = element.pris;
+          klon.querySelector(".pris").textContent = element.pris + "kr";
           klon.querySelector(".læs-mere-knap").addEventListener("click", () => { location.href = element.link; })
           container.appendChild(klon);
            }
