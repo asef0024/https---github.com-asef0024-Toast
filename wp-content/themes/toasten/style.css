@@ -182,14 +182,13 @@ button.filter {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 
-  #liste img {
-    /* width: 363.33px;
-    height: 242.15px; */
+  /* #liste img {
+   
     text-align: center;
     object-fit: cover;
     width: 100%;
     max-height: 100%;
-  }
+  } */
   #filtrering {
     display: flex;
     gap: 15px;
@@ -200,10 +199,11 @@ button.filter {
   }
   /* Toast oversigt */
 
-  .menuen .elementcontainer {
+  /* .menuen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
-  }
+  } */
+
   .menuen .elementcontainer #liste {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -211,7 +211,7 @@ button.filter {
     align-items: center;
   }
 
-  .menuen .elementcontainer #liste:nth-child(odd) {
+  /* .menuen .elementcontainer #liste:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -221,7 +221,7 @@ button.filter {
 
   .menuen .elementcontainer #liste:nth-child(odd) img {
     grid-column: 2;
-  }
+  } */
   .menuen .elementcontainer #liste img {
     width: 70%;
     margin: 1rem;
