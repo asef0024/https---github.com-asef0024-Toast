@@ -7,7 +7,58 @@ Author:      Toast-master
 */
 /* 
 
+.vare {
+	margin: 0 auto;
+	max-width: 1000px;
+	text-align: center;
+}
+
+.vare img {
+	padding-top: 100px;
+	width: 60%;
+	transform: rotate(0deg);
+	margin: 0 auto;
+}
+
+@media (max-width:400px) {
+	#menu-intro {
+		padding-top: 150px
+}
+	
+	#shoppen {
+		padding-top: 150px;
+	}
+	
+	#tv-container {
+		margin-top: -80px;
+	}
+	
+}
+
+
+#search-form-61ba156b27b1b {
+	display:none;
+}
+
+#om-os-spacer {
+	padding-top: 150px;
+}
+
 /****GLOBAL******/
+
+@media (max-width: 400px) {
+  #menu-intro {
+    padding-top: 150px;
+  }
+
+  #shoppen {
+    padding-top: 150px;
+  }
+
+  #tv-container {
+    margin-top: -80px;
+  }
+}
 
 .wrapper {
   margin: 0 auto;
@@ -54,6 +105,14 @@ button {
 button:hover {
   background: black;
   box-shadow: none;
+}
+
+#search-form-61ba156b27b1b {
+  display: none;
+}
+
+#om-os-spacer {
+  padding-top: 150px;
 }
 
 /********FORSIDE**********/
@@ -133,6 +192,19 @@ svg.icon-cancel {
 }
 
 /* Shoppen + menuen */
+
+.vare {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.vare img {
+  padding-top: 100px;
+  width: 60%;
+  transform: rotate(0deg);
+  margin: 0 auto;
+}
 
 #liste {
   padding: 10px;
