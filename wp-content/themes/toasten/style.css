@@ -60,6 +60,10 @@ Author:      Toast-master
   }
 }
 
+.menu-toggle:hover .menu-label {
+  color: #f967ac;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1300px;
@@ -208,7 +212,6 @@ svg.icon-cancel {
 
 #liste {
   padding: 10px;
-  text-align: center;
 }
 
 #liste p {
@@ -310,7 +313,7 @@ ul > li::marker {
     align-items: center;
   }
 
-  .menuen .elementcontainer {
+  .menuen .elementcontainer #liste {
     display: grid;
 
     justify-items: center;
