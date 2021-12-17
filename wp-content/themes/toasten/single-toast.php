@@ -50,14 +50,8 @@ function visElementer() {
 console.log(element.billede2.guid);
 document.querySelector(".h2").innerHTML = element.title.rendered;
 document.querySelector(".billede2").src = element.billede2.guid;
-//   document.querySelector(".overskrift1").innerHTML = element.overskrift1;
-//   document.querySelector(".infobox1").src = element.infobox1.guid;
-//   document.querySelector(".infobox2").src = element.infobox2.guid;
 document.querySelector(".beskrivelse").innerHTML = element.beskrivelse;
-document.querySelector(".ingredienser").innerHTML = element.ingredienser;
-//   document.querySelector(".billede3").src = element.billede3.guid;
 document.querySelector(".pris").innerHTML = element.pris + "kr";
-//   document.querySelector(".video").src = element.video.guid;
 }
 
 getJson();

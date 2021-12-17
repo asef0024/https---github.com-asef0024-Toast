@@ -52,22 +52,6 @@ get_header(); ?>
       let temaer;
       let filterElement = "alle";
 
-      // document.addEventListener("DOMContentLoaded", start);
-      // function start() {
-      // const filterKnapper = document.querySelectorAll(".shoppen_nav");
-      //   filterKnapper.forEach((knap) =>
-      //     knap.addEventListener("click", filtrerVarer)
-      //   );
-      // }
-
-      //   function filtrerVarer() {
-      //   filterElementer = this.dataset.kategori;
-      //   document.querySelector(".valgt").classList.remove("valgt");
-      //   this.classList.add("valgt");
-
-      //   visElementer();
-      // }
-     
       const url = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/vare?per_page=100";
       const catUrl = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/categories?per_page=100";
 
@@ -84,7 +68,6 @@ get_header(); ?>
       }
 
       function opretknapper () {
-
         categories.forEach(cat => {
           document.querySelector(".shoppen_nav").innerHTML += `<button class="filter" data-element="${cat.id}">${cat.name}</button>`
         })
@@ -98,15 +81,12 @@ get_header(); ?>
         document.querySelectorAll("button").forEach(elm => {
           elm.addEventListener("click", filtrering);
         })
-
-       
       };
+
       function filtrering() {
         filterElement = this.dataset.element;
         console.log(filterElement);
-
         visElementer();
-
       }
 
     

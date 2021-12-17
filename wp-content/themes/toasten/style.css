@@ -59,9 +59,89 @@ Author:      Toast-master
     margin-top: -80px;
   }
 }
-
-.menu-toggle:hover .menu-label {
+/* Header Navigation Hover Color */
+.menu-toggle:hover,
+.menu-toggle:focus,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.absolute-header.navigation-classic .main-navigation ul ul a:hover,
+.absolute-header.navigation-classic .main-navigation ul ul a:focus,
+.scroll-down:hover,
+.scroll-down:focus,
+#testimonial-content-section.style-two .owl-prev:hover::after,
+#testimonial-content-section.style-two .owl-next:hover::before {
   color: #f967ac;
+}
+
+#fullscreen-menu-toggle:hover,
+#fullscreen-menu-toggle:focus {
+  background-color: #f9af1d;
+}
+
+/* Gradient Button Background Color */
+/* .button,
+button,
+input[type="submit"],
+.view-more .button,
+.header-media .more-link .readmore,
+#feature-slider-section .more-link .readmore,
+.hero-section .more-link .readmore,
+#promotion-section .more-link .readmore,
+.pricing-section .more-link .readmore,
+.app-section .more-link .readmore,
+#content #infinite-handle span button,
+nav.navigation.posts-navigation .nav-links a,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+#footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+.scrollup a,
+.section .owl-carousel .owl-dots button.active,
+.menu-inside-wrapper #site-header-cart-wrappe li > a,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current,
+.archive-content-wrap .pagination .page-numbers.current,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.onsale,
+.sticky-label,
+#feature-slider-section .owl-prev,
+#feature-slider-section .owl-next,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.playlist-section .mejs-playpause-button,
+#portfolio-content-section.full-layout .post-thumbnail a:before {
+  background-image: black;
+}
+
+.sticky-post,
+span.sticky-post:after,
+span.sticky-post:before,
+.pricing-section .highlight .hentry-inner,
+.hover-add-to-cart .woocommerce .product-container .button,
+.hover-add-to-cart .woocommerce .product-container .wc-forward,
+.onsale,
+#timeline-section .hentry:before {
+  background-image: black;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+.search-form .search-field ~ .focus-border:before,
+.search-form .search-field ~ .focus-border:after,
+.search-form .search-field ~ .focus-border i:before,
+.search-form .search-field ~ .focus-border i:after,
+.team-tab .ui-tabs-panel .social-navigation a:hover,
+.team-tab .ui-tabs-panel .social-navigation a:focus,
+.team-tab .ui-tabs-panel .social-links-menu a:hover,
+.team-tab .ui-tabs-panel .social-links-menu a:focus {
+  background-color: black;
+}
+#floating-social .social-navigation a:hover,
+#floating-social .social-navigation a:focus,
+#fullscreen-menu-toggle,
+body.search-active #primary-search-wrapper .search-toggle {
+  background-color: #f9af1d;
+}*/
+
+.absolute-header.menu-open #fullscreen-menu-toggle {
+  background: #f967ac;
 }
 
 .wrapper {
@@ -226,7 +306,6 @@ svg.icon-cancel {
 
 .pris {
   font-style: italic;
-  text-decoration: underline;
 }
 
 #filtrering {
@@ -242,7 +321,6 @@ button.filter {
 }
 
 .elementcontainer {
-  /* cursor: pointer; */
   gap: 10px;
 }
 
@@ -277,22 +355,11 @@ ul > li::marker {
 }
 
 @media (min-width: 750px) {
-  /* .vare img {
-    /* transform: rotate(-50deg); */
-  /* } */
-
   #shoppen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
 
-  /* #liste img {
-   
-    text-align: center;
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-  } */
   #filtrering {
     display: flex;
     gap: 15px;
@@ -301,27 +368,20 @@ ul > li::marker {
   .ret-container {
     padding: 30px;
   }
-  /* Toast oversigt */
 
   /* .menuen .elementcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
-  } */
-
-  .menuen .elementcontainer {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     align-items: center;
-  }
+  } */
 
   .menuen .elementcontainer #liste {
     display: grid;
-
+    grid-template-columns: 60% auto;
     justify-items: center;
   }
 
-  /* .menuen .elementcontainer #liste:nth-child(odd) {
+  .menuen .elementcontainer #liste:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -331,20 +391,11 @@ ul > li::marker {
 
   .menuen .elementcontainer #liste:nth-child(odd) img {
     grid-column: 2;
-  } */
+  }
   .menuen .elementcontainer #liste img {
     width: 55%;
     margin: 1rem;
     object-fit: contain;
     /* transform: rotate(-50deg); */
   }
-  /* toast singleview */
-  /* .vare {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    align-items: center;
-  }
-  .vare .toast-text {
-    align-self: center;
-  } */
 }

@@ -50,14 +50,11 @@ get_header(); ?>
 
         let elementer;
       let categories;
-      let temaer;
       let filterElement = "alle";
 
      
-     
       const url = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/toast?per_page=100";
       const catUrl = "http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/wp-json/wp/v2/categories?per_page=100";
-
 
       async function getJson() {
         const data = await fetch(url);
@@ -66,12 +63,7 @@ get_header(); ?>
         elementer = await data.json();
         categories = await catdata.json();
         visElementer();
-       
-
       }
-
-
-    
 
 
       function visElementer() {
@@ -90,9 +82,6 @@ get_header(); ?>
            }
           })
         }
-
-
- 
 
 getJson();
 
