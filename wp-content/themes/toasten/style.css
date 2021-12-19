@@ -78,68 +78,6 @@ Author:      Toast-master
   background-color: #f9af1d;
 }
 
-/* Gradient Button Background Color */
-/* .button,
-button,
-input[type="submit"],
-.view-more .button,
-.header-media .more-link .readmore,
-#feature-slider-section .more-link .readmore,
-.hero-section .more-link .readmore,
-#promotion-section .more-link .readmore,
-.pricing-section .more-link .readmore,
-.app-section .more-link .readmore,
-#content #infinite-handle span button,
-nav.navigation.posts-navigation .nav-links a,
-.catch-instagram-feed-gallery-widget-wrapper .button,
-#footer-newsletter .ewnewsletter .hentry form input[type="submit"],
-.scrollup a,
-.section .owl-carousel .owl-dots button.active,
-.menu-inside-wrapper #site-header-cart-wrappe li > a,
-.woocommerce-pagination ul.page-numbers li .page-numbers.current,
-.archive-content-wrap .pagination .page-numbers.current,
-.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
-.onsale,
-.sticky-label,
-#feature-slider-section .owl-prev,
-#feature-slider-section .owl-next,
-.pagination .page-numbers.prev,
-.pagination .page-numbers.next,
-.playlist-section .mejs-playpause-button,
-#portfolio-content-section.full-layout .post-thumbnail a:before {
-  background-image: black;
-}
-
-.sticky-post,
-span.sticky-post:after,
-span.sticky-post:before,
-.pricing-section .highlight .hentry-inner,
-.hover-add-to-cart .woocommerce .product-container .button,
-.hover-add-to-cart .woocommerce .product-container .wc-forward,
-.onsale,
-#timeline-section .hentry:before {
-  background-image: black;
-}
-
-button[type="submit"]:hover,
-button[type="submit"]:focus,
-.search-form .search-field ~ .focus-border:before,
-.search-form .search-field ~ .focus-border:after,
-.search-form .search-field ~ .focus-border i:before,
-.search-form .search-field ~ .focus-border i:after,
-.team-tab .ui-tabs-panel .social-navigation a:hover,
-.team-tab .ui-tabs-panel .social-navigation a:focus,
-.team-tab .ui-tabs-panel .social-links-menu a:hover,
-.team-tab .ui-tabs-panel .social-links-menu a:focus {
-  background-color: black;
-}
-#floating-social .social-navigation a:hover,
-#floating-social .social-navigation a:focus,
-#fullscreen-menu-toggle,
-body.search-active #primary-search-wrapper .search-toggle {
-  background-color: #f9af1d;
-}*/
-
 .absolute-header.menu-open #fullscreen-menu-toggle {
   background: #f967ac;
 }
@@ -290,13 +228,31 @@ svg.icon-cancel {
   margin: 0 auto;
 }
 
+.kitknap {
+  font-family: "Bungee Inline", cursive;
+  background: white;
+  color: black;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 2%;
+}
+.kitknap:hover {
+  background: black;
+  box-shadow: none;
+  color: white;
+}
+
 #liste {
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 #liste p {
   font-size: 16px;
   color: black;
+}
+
+#liste img {
+  width: 75%;
 }
 
 #menu-intro {
@@ -320,6 +276,11 @@ button.filter {
   border-color: black;
 }
 
+.filter:focus {
+  background-color: black;
+  background-image: none;
+}
+
 .elementcontainer {
   gap: 10px;
 }
@@ -336,9 +297,17 @@ p.ingredienser {
   max-width: 450px;
   margin: 0 auto;
 }
-
+/* 
 ul > li::marker {
   color: white;
+} */
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li {
+  margin-left: -1em;
 }
 
 .tilbageknap {
@@ -369,19 +338,24 @@ ul > li::marker {
     padding: 30px;
   }
 
-  /* .menuen .elementcontainer {
+  .menuen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  } */
+    gap: 50px;
+  }
 
   .menuen .elementcontainer #liste {
     display: grid;
-    grid-template-columns: 60% auto;
-    justify-items: center;
+    grid-template-columns: 30% auto;
+    align-items: stretch;
   }
 
-  .menuen .elementcontainer #liste:nth-child(odd) {
+  .menuen .elementcontainer #liste .placer-elementer {
+    align-self: stretch;
+  }
+
+  /* .menuen .elementcontainer #liste:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -391,11 +365,11 @@ ul > li::marker {
 
   .menuen .elementcontainer #liste:nth-child(odd) img {
     grid-column: 2;
-  }
+  } */
   .menuen .elementcontainer #liste img {
-    width: 55%;
+    width: 100%;
     margin: 1rem;
-    object-fit: contain;
+    justify-self: end;
     /* transform: rotate(-50deg); */
   }
 }

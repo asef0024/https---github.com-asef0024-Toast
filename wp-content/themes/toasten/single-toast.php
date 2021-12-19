@@ -25,7 +25,8 @@ get_header(); ?>
         <h1 class="h2"></h1>
         <p class="beskrivelse"></p>
         <p class="pris"></p>
-        <button class="book-knap">Køb toast-kit</button>
+        <a class="kitknap" href="http://asefehzivlaei.com/kea/2-semester/tema10/wordpress/shoppen/">Køb toast-kit</a>
+        <!-- <button class="book-knap">Køb toast-kit</button> -->
     </section>
 
   

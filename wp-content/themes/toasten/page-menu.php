@@ -29,7 +29,7 @@ get_header(); ?>
 <h1>TA' EN TOAST</h1>
 <P> Alle Toasts er ristet til perfektion i brunet smør og serveres gloende varme.</P>
 </div>
-
+<!-- <img src="ost.jpg" alt=""> -->
 <template>
   <article id="liste">
       <img src="" alt="" />

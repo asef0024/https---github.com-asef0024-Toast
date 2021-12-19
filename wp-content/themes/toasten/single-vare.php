@@ -23,7 +23,7 @@ get_header(); ?>
     <h1 class="h2"></h1>
     <p class="beskrivelse"></p>
     <p class="pris"></p>
-    <button class="book-knap">Køb</button>
+    <button class="kob">Køb</button>
 </section>
   
 </article>
