@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main">
         
 
-<article class="vare">
+<article class="toast">
 
     
    

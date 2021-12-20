@@ -232,15 +232,16 @@ svg.icon-cancel {
 #liste img {
   width: 75%;
 }
-.vare {
+.vare,
+.toast {
   margin: 0 auto;
   max-width: 1000px;
   text-align: center;
 }
 
-.vare img {
+.toast img {
   padding-top: 100px;
-  width: 60%;
+  width: 100%;
   transform: rotate(0deg);
   margin: 0 auto;
 }
@@ -334,6 +335,10 @@ ul li {
 #menu-intro {
   text-align: center;
   padding-top: 80px;
+}
+
+.toast-text .beskrivelse {
+  text-align: left;
 }
 
 @media (min-width: 750px) {

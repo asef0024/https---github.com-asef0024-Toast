@@ -47,7 +47,8 @@ get_header(); ?>
 </div>
             <script>
 
-        let elementer;
+      //Lav variabler 
+      let elementer;
       let categories;
       let temaer;
       let filterElement = "alle";
