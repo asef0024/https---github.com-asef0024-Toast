@@ -5,44 +5,6 @@ Version:      1.0.7
 Description:  Scapeshot Child Theme
 Author:      Toast-master
 */
-/* 
-
-.vare {
-	margin: 0 auto;
-	max-width: 1000px;
-	text-align: center;
-}
-
-.vare img {
-	padding-top: 100px;
-	width: 60%;
-	transform: rotate(0deg);
-	margin: 0 auto;
-}
-
-@media (max-width:400px) {
-	#menu-intro {
-		padding-top: 150px
-}
-	
-	#shoppen {
-		padding-top: 150px;
-	}
-	
-	#tv-container {
-		margin-top: -80px;
-	}
-	
-}
-
-
-#search-form-61ba156b27b1b {
-	display:none;
-}
-
-#om-os-spacer {
-	padding-top: 150px;
-}
 
 /****GLOBAL******/
 
@@ -58,31 +20,6 @@ Author:      Toast-master
   #tv-container {
     margin-top: -80px;
   }
-}
-/* Header Navigation Hover Color */
-.menu-toggle:hover,
-.menu-toggle:focus,
-.main-navigation a:hover,
-.main-navigation a:focus,
-.absolute-header.navigation-classic .main-navigation ul ul a:hover,
-.absolute-header.navigation-classic .main-navigation ul ul a:focus,
-.scroll-down:hover,
-.scroll-down:focus,
-#testimonial-content-section.style-two .owl-prev:hover::after,
-#testimonial-content-section.style-two .owl-next:hover::before {
-  color: #f967ac;
-}
-#fullscreen-menu-toggle {
-  background-color: #f9af1d;
-}
-
-#fullscreen-menu-toggle:hover,
-#fullscreen-menu-toggle:focus {
-  background-color: #f9af1d;
-}
-
-.absolute-header.menu-open #fullscreen-menu-toggle {
-  background: #f967ac;
 }
 
 .wrapper {
@@ -141,6 +78,32 @@ button:hover {
   padding-top: 150px;
 }
 
+/* Header Navigation Hover Color */
+.menu-toggle:hover,
+.menu-toggle:focus,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.absolute-header.navigation-classic .main-navigation ul ul a:hover,
+.absolute-header.navigation-classic .main-navigation ul ul a:focus,
+.scroll-down:hover,
+.scroll-down:focus,
+#testimonial-content-section.style-two .owl-prev:hover::after,
+#testimonial-content-section.style-two .owl-next:hover::before {
+  color: #f967ac;
+}
+#fullscreen-menu-toggle {
+  background-color: #f9af1d;
+}
+
+#fullscreen-menu-toggle:hover,
+#fullscreen-menu-toggle:focus {
+  background-color: #f9af1d;
+}
+
+.absolute-header.menu-open #fullscreen-menu-toggle {
+  background: #f967ac;
+}
+
 /********FORSIDE**********/
 
 .menu-label {
@@ -163,6 +126,7 @@ svg.icon-search {
   color: black;
 }
 
+/* Logo size responsive */
 @media (min-width: 760px) {
   img.custom-logo {
     height: 90px;
@@ -230,7 +194,7 @@ svg.icon-cancel {
 }
 
 #liste img {
-  width: 75%;
+  width: 100%;
 }
 .vare,
 .toast {
@@ -334,14 +298,19 @@ ul li {
 
 #menu-intro {
   text-align: center;
-  padding-top: 80px;
 }
 
 .toast-text .beskrivelse {
   text-align: left;
 }
 
+/* menu og shop web */
+
 @media (min-width: 750px) {
+  #menu-intro {
+    padding-top: 80px;
+  }
+
   #shoppen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -356,6 +325,7 @@ ul li {
     padding: 30px;
   }
 
+  /* Menu grid web */
   .menuen .elementcontainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -373,21 +343,15 @@ ul li {
     align-self: stretch;
   }
 
-  /* .menuen .elementcontainer #liste:nth-child(odd) {
-    grid-template-columns: 1fr 2fr;
-  }
-
-  .menuen .elementcontainer #liste:nth-child(odd) .placer-elementer {
-    grid-column: 1;
-  }
-
-  .menuen .elementcontainer #liste:nth-child(odd) img {
-    grid-column: 2;
-  } */
   .menuen .elementcontainer #liste img {
     width: 100%;
     margin: 1rem;
     justify-self: end;
     transform: unset;
+  }
+
+  .toast img,
+  .vare img {
+    width: 60%;
   }
 }
